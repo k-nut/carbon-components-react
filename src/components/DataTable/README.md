@@ -593,7 +593,7 @@ In practice, this looks like the following:
       <TableToolbar>
         {/* make sure to apply getBatchActionProps so that the bar renders */}
         <TableBatchActions {...getBatchActionProps()}>
-          {/* inside of you batch actinos, you can include selectedRows */}
+          {/* inside of you batch actions, you can include selectedRows */}
           <TableBatchAction onClick={batchActionClick(selectedRows)}>
             Ghost
           </TableBatchAction>
